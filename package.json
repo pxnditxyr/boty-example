@@ -1,0 +1,27 @@
+{
+  "name": "hola2",
+  "version": "0.0.1",
+  "description": "RestFul API with BotyRest",
+  "main": "dist/index",
+  "types": "dist/types/index",
+  "scripts": {
+    "build:dev": "npx tsc --watch",
+    "build:prod": "npx tsc",
+    "start:prod": "node ./dist/app.js",
+    "start:dev": "node --watch ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "BotyStudio",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "@types/node": "^20.3.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "botyrest": "^0.0.4",
+    "typeorm": "^0.3.16",
+    "pg": "^8.11.0",
+    "class-validator": "^0.14.0"
+  }
+}

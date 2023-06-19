@@ -1,0 +1,47 @@
+# animals Request Example
+
+GET http://127.0.0.1:3001/animals
+
+GET http://127.0.0.1:3001/animals/1
+
+POST http://127.0.0.1:3001/animals
+Content-Type: application/json
+
+{
+  "name": "some name",
+}
+
+PATCH http://127.0.0.1:3001/animals/id
+Content-Type: application/json
+
+{
+  "name": "some name updated",
+}
+
+DELETE http://127.0.0.1:3001/animals/id
+Content-Type: application/json
+
+{}# cats Request Example
+
+GET http://127.0.0.1:3001/cats
+
+GET http://127.0.0.1:3001/cats/1
+
+POST http://127.0.0.1:3001/cats
+Content-Type: application/json
+
+{
+  "name": "some name",
+}
+
+PATCH http://127.0.0.1:3001/cats/id
+Content-Type: application/json
+
+{
+  "name": "some name updated",
+}
+
+DELETE http://127.0.0.1:3001/cats/id
+Content-Type: application/json
+
+{}
